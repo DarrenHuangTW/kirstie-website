@@ -18,14 +18,14 @@ case_study_types: ["辦公室", "宿舍"]
 case_study_years: ["2023"]
 tags: ["科技園區", "快速部署", "模組化建築"]
 
-# 內頁圖片集 (Gallery) - Placeholder
-gallery:
-  - image: "placeholder-icon.jpg"
-    alt: "辦公區外觀"
-  - image: "placeholder-icon.jpg"
-    alt: "辦公室內部"
-  - image: "placeholder-icon.jpg"
-    alt: "宿舍區鳥瞰"
+# Example for gallery image captions (optional):
+# gallery_item:
+#   - album: "project-tech-park"
+#     image: "image1.jpg" # Corresponds to a filename in assets/media/albums/project-tech-park/
+#     caption: "This is the first image."
+#   - album: "project-tech-park"
+#     image: "image2.jpg"
+#     caption: "Another view."
 
 ---
 
@@ -46,8 +46,4 @@ gallery:
 *   **環境舒適：** 優良的隔熱隔音效果，為員工提供了舒適的工作與休息環境。
 *   **成本效益：** 相較於租賃或新建傳統建築，大幅降低了初期投入與營運成本。
 
-## 專案照片
-
-![科技園區臨時辦公室外觀](placeholder-icon.jpg)
-![科技園區臨時辦公室內部](placeholder-icon.jpg)
-![科技園區員工宿舍區](placeholder-icon.jpg)
+{{< gallery album="project-tech-park" >}}
