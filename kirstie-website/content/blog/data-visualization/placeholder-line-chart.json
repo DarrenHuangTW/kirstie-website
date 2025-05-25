@@ -1,0 +1,21 @@
+{
+  "data": [
+    {
+      "x": ["一月", "二月", "三月", "四月", "五月", "六月"],
+      "y": [65, 59, 80, 81, 56, 55],
+      "type": "scatter",
+      "mode": "lines+markers",
+      "name": "專案 A 進度"
+    },
+    {
+      "x": ["一月", "二月", "三月", "四月", "五月", "六月"],
+      "y": [28, 48, 40, 19, 86, 27],
+      "type": "scatter",
+      "mode": "lines+markers",
+      "name": "專案 B 進度"
+    }
+  ],
+  "layout": {
+    "title": "專案進度 (Placeholder Data)"
+  }
+}

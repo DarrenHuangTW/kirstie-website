@@ -1,0 +1,18 @@
+# Hugo ignores
+kirstie-website/public/
+kirstie-website/resources/_gen/
+kirstie-website/.hugo_build.lock
+kirstie-website/hugo_stats.json
+
+# Dependency directories
+node_modules/
+vendor/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Git specific ignores
+.git/

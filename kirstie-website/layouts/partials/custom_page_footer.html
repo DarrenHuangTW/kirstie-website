@@ -1,0 +1,3 @@
+{{ if not (and (eq .Type "page") (or (eq .File.BaseFileName "about") (eq .File.BaseFileName "contact") (eq .File.BaseFileName "privacy") (eq .File.BaseFileName "terms"))) }}
+  {{ partial "page_footer" . }}
+{{ end }}

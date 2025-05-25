@@ -1,0 +1,24 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://docs.hugoblox.com/reference/language/
+
+# Default language
+zh:
+  languageCode: zh-Hant # Traditional Chinese
+  title: "貴公司網站" # Placeholder title, can be overridden by hugo.toml or specific page titles
+  params:
+    description: "貴公司專業服務與解決方案" # Placeholder description
+  # contentDir: content/zh # Only if content is in a subfolder
+
+# Example for a second language (e.g., English)
+# en:
+#  languageCode: en-us
+#  contentDir: content/en # Uncomment for multi-lingual sites
+#  title: Your Company Website
+#  params:
+#    description: Professional services and solutions by Your Company
+#  menu:
+#    main:
+#      - name: About
+#        url: '#about'
+#        weight: 1

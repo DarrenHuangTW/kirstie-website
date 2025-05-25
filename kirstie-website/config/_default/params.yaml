@@ -1,0 +1,60 @@
+# SITE SETUP
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+appearance:
+  mode: light
+  color: indigo # Can be updated later based on visual design
+
+# SEO
+marketing:
+  seo:
+    site_type: Organization # Updated to Organization
+    local_business_type: '' # Can be specified later if needed
+    org_name: '貴公司名稱' # Updated with company name
+    description: '貴公司名稱 官方網站，提供專業工地組合屋解決方案，展示豐富工程實績與最新消息。' # Updated description
+    twitter: '' # Add Twitter handle if available
+  analytics:
+    google_analytics: '' # Add Google Analytics ID when available
+    baidu_tongji: ''
+    plausible: ''
+    fathom: ''
+    pirsch: ''
+  verification:
+    google: ''
+    baidu: ''
+
+# Site header
+header:
+  navbar:
+    enable: true
+    blox: "navbar"
+    align: "center" # Alignment of menu items: left, center, or right
+    fixed_to_top: true
+    logo:
+      text: "貴公司名稱" # Updated with company name
+      # Logo filename in `assets/media/` folder
+      # filename: "logo.svg" # Update filename if a logo image is provided - Temporarily commented out
+    button:
+      enable: true
+      text: "立即洽詢" # Updated button text
+      url: "/contact/" # Updated button URL to contact page
+    show_search: true
+    show_theme_chooser: true # User can change theme variation (e.g. light/dark)
+
+# Site footer
+footer:
+  copyright:
+    notice: '© {year} 貴公司名稱. All Rights Reserved.' # Updated copyright notice, added "All Rights Reserved"
+    # Optional: Add a license notice.
+    # license:
+    #   enable: true
+    #   text: 'Licensed under the MIT license.'
+    #   url: 'https://opensource.org/licenses/MIT'
+
+# Localization
+locale:
+  date_format: '2006年1月2日' # Traditional Chinese date format
+  time_format: '下午 3:04' # Traditional Chinese time format

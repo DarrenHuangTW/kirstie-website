@@ -1,0 +1,23 @@
+# Navigation Links
+#   To link a page section, specify the URL as a hash `/#` followed by the `id` of the section.
+#   The `weight` parameter defines the order that the links will appear in.
+
+main:
+  - name: 首頁
+    url: /
+    weight: 10
+  - name: 關於我們
+    url: /about/
+    weight: 20
+  - name: 產品服務
+    url: /products/
+    weight: 30
+  - name: 工程實績
+    url: /case-studies/
+    weight: 40
+  - name: 最新消息
+    url: /news/
+    weight: 50
+  - name: 聯絡我們
+    url: /contact/
+    weight: 60
